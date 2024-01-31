@@ -43,7 +43,6 @@ public class RamdaExample {
 		메서드 참조는 클래스이름::메서드이름 또는 참조변수::메서드이름 형식으로 작성합니다.
 		 */
 		
-		
 		p = Integer::parseInt;
 		System.out.println(p.toInt("600"));
 	}

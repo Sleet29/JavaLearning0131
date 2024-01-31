@@ -26,3 +26,11 @@ public class ThreadSleep_date_main2_anonymous {
 		th.start();
 	}
 }
+
+/* 익명 클래스 만드는 방법
+	부모(클래스 또는 인터페이스) 참조변수 = new 부모(클래스 또는 인터페이스)(){
+
+	};
+	Thread				 thread = new Thread(){};
+}
+*/
